@@ -19,6 +19,12 @@ build/
 dist/
 *.egg-info/
 
+# Large raw traces are reproducible from the tracked evaluation scripts.
+trans_project/results/local_belief_diagnostics_eval50/belief_steps.csv
+remote_results/remote_partner_reliability_eval50/episodes.csv
+remote_results/remote_robustness_eval50_v2/episodes.csv
+remote_results/remote_tail_stress_eval30_v2/episodes.csv
+
 # Editor and temporary files
 .idea/
 .vscode/

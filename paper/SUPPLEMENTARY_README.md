@@ -1,6 +1,6 @@
 # TAROT Supplementary Material
 
-This archive contains the simulator, evaluation scripts, tuned parameter files, and episode-level data used in the anonymous manuscript.
+This document describes the anonymous supplementary bundle. The Git repository contains the simulator, evaluation scripts, tuned parameter files, aggregate results, and compact validation artifacts. Large raw traces are regenerated from the tracked scripts, seeds, and policies rather than versioned directly.
 
 ## Reported evaluation data
 

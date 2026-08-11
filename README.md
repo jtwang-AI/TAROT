@@ -1,6 +1,6 @@
 # TAROT Supplementary Material
 
-This archive contains the simulator, evaluation scripts, tuned parameter files, and episode-level data used in the anonymous manuscript.
+This repository contains the simulator, evaluation scripts, tuned parameter files, aggregate results, and compact validation artifacts used in the anonymous manuscript.
 
 ## Reported evaluation data
 
@@ -16,6 +16,8 @@ This archive contains the simulator, evaluation scripts, tuned parameter files, 
 | Dynamics-aware 3-D validation | 1,200 |
 
 The manuscript total is 378,630 episodes. Step-level belief diagnostics and excluded development smoke runs are not added to this total.
+
+The large raw episode tables for the three remote sweeps and the step-level belief trace are intentionally not versioned. Their aggregate CSV/JSON summaries are included, and the commands below regenerate the raw traces from the tracked seeds and policies.
 
 ## Reproduction
 
