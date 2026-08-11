@@ -1,0 +1,80 @@
+{
+  "selected_render_trajectories": {
+    "urban": {
+      "seed": 830001,
+      "steps": 102
+    },
+    "forest": {
+      "seed": 840003,
+      "steps": 71
+    },
+    "industrial": {
+      "seed": 850007,
+      "steps": 80
+    }
+  },
+  "table": [
+    {
+      "policy": "tarot_no_safety",
+      "episodes": 300,
+      "success": 0.0,
+      "success_ci": [
+        0.0,
+        0.012643429997735661
+      ],
+      "collision": 1.0,
+      "timeout": 0.0,
+      "successful_steps": null,
+      "activation_percent": 0.0
+    },
+    {
+      "policy": "tarot_default",
+      "episodes": 300,
+      "success": 0.7066666666666667,
+      "success_ci": [
+        0.6527928854718688,
+        0.7553144967957339
+      ],
+      "collision": 0.29333333333333333,
+      "timeout": 0.0,
+      "successful_steps": 91.91981132075472,
+      "activation_percent": 41.762087566265045
+    },
+    {
+      "policy": "tarot_tuned_cem",
+      "episodes": 300,
+      "success": 0.6733333333333333,
+      "success_ci": [
+        0.6183611701576165,
+        0.7239224407765018
+      ],
+      "collision": 0.32666666666666666,
+      "timeout": 0.0,
+      "successful_steps": 89.95544554455445,
+      "activation_percent": 41.12915447563219
+    },
+    {
+      "policy": "flat_cem_tuned",
+      "episodes": 300,
+      "success": 0.66,
+      "success_ci": [
+        0.6046734114246599,
+        0.7112806909760647
+      ],
+      "collision": 0.34,
+      "timeout": 0.0,
+      "successful_steps": 89.5,
+      "activation_percent": 99.31457724397194
+    }
+  ],
+  "tarot_cem_minus_flat_success": [
+    0.013333333333333334,
+    -0.03,
+    0.056666666666666664
+  ],
+  "tarot_cem_activation_reduction_percentage_points": [
+    58.185422768339734,
+    56.23880707252638,
+    60.1485935956167
+  ]
+}
