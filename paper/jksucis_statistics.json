@@ -1,0 +1,415 @@
+{
+  "episode_totals": {
+    "Main grid": 6600,
+    "Robustness": 115200,
+    "Reliability shift": 100800,
+    "Tail stress": 136080,
+    "Unseen partners": 14400,
+    "Dynamics-aware 3-D": 1200
+  },
+  "reported_total_including_budget_and_scalability": 378630,
+  "main": [
+    {
+      "policy": "greedy",
+      "episodes": 1100,
+      "success": 0.2772727272727273,
+      "success_ci": [
+        0.25162800617036596,
+        0.3044677235067905
+      ],
+      "collision": 0.7227272727272728,
+      "timeout": 0.0,
+      "successful_steps": 34.721311475409834,
+      "activation_percent": null
+    },
+    {
+      "policy": "safety_only",
+      "episodes": 1100,
+      "success": 0.5236363636363637,
+      "success_ci": [
+        0.4940903158380211,
+        0.5530178924411379
+      ],
+      "collision": 0.4763636363636364,
+      "timeout": 0.0,
+      "successful_steps": 47.088541666666664,
+      "activation_percent": 15.663775688234939
+    },
+    {
+      "policy": "tarot_no_safety",
+      "episodes": 1100,
+      "success": 0.28545454545454546,
+      "success_ci": [
+        0.25954756537263934,
+        0.31285485178576444
+      ],
+      "collision": 0.7145454545454546,
+      "timeout": 0.0,
+      "successful_steps": 36.85031847133758,
+      "activation_percent": null
+    },
+    {
+      "policy": "tarot_default",
+      "episodes": 1100,
+      "success": 0.5318181818181819,
+      "success_ci": [
+        0.5022703746685923,
+        0.5611445210918141
+      ],
+      "collision": 0.4681818181818182,
+      "timeout": 0.0,
+      "successful_steps": 43.9008547008547,
+      "activation_percent": 12.45526585745433
+    },
+    {
+      "policy": "tarot_tuned_cem",
+      "episodes": 1100,
+      "success": 0.5372727272727272,
+      "success_ci": [
+        0.5077281451912611,
+        0.5665578755566433
+      ],
+      "collision": 0.4627272727272727,
+      "timeout": 0.0,
+      "successful_steps": 44.8595600676819,
+      "activation_percent": 13.704112696473207
+    },
+    {
+      "policy": "flat_cem_tuned",
+      "episodes": 1100,
+      "success": 0.5681818181818182,
+      "success_ci": [
+        0.5387224502194702,
+        0.5971666121242575
+      ],
+      "collision": 0.4318181818181818,
+      "timeout": 0.0,
+      "successful_steps": 37.928,
+      "activation_percent": 97.51519933718212
+    }
+  ],
+  "cross_suite": [
+    {
+      "suite": "Robustness",
+      "episodes": 115200,
+      "per_policy": 14400,
+      "success": 0.39625,
+      "activation_percent": 15.549707692708614,
+      "delta_success_vs_flat": [
+        -0.026111111111111113,
+        -0.029513888888888888,
+        -0.02298437500000001
+      ],
+      "activation_reduction_vs_flat": [
+        82.42475020840233,
+        82.19356580947232,
+        82.64457201315598
+      ]
+    },
+    {
+      "suite": "Reliability shift",
+      "episodes": 100800,
+      "per_policy": 14400,
+      "success": 0.7103472222222222,
+      "activation_percent": 10.268677616328294,
+      "delta_success_vs_flat": [
+        -0.029513888888888888,
+        -0.03319618055555555,
+        -0.025833333333333333
+      ],
+      "activation_reduction_vs_flat": [
+        86.7266764192895,
+        86.5206326064382,
+        86.92699401403931
+      ]
+    },
+    {
+      "suite": "Tail stress",
+      "episodes": 136080,
+      "per_policy": 19440,
+      "success": 0.16748971193415638,
+      "activation_percent": 22.07690534046578,
+      "delta_success_vs_flat": [
+        -0.013220164609053498,
+        -0.015843621399176954,
+        -0.010699588477366255
+      ],
+      "activation_reduction_vs_flat": [
+        76.7900355309703,
+        76.58857104243589,
+        77.01118737895277
+      ]
+    },
+    {
+      "suite": "Unseen partners",
+      "episodes": 14400,
+      "per_policy": 2400,
+      "success": 0.6445833333333333,
+      "activation_percent": 16.393462940031572,
+      "delta_success_vs_flat": [
+        -0.0425,
+        -0.05291666666666667,
+        -0.0325
+      ],
+      "activation_reduction_vs_flat": [
+        80.33431396339114,
+        79.70168692532414,
+        80.95877366190048
+      ]
+    }
+  ],
+  "unseen": [
+    {
+      "policy": "safety_only",
+      "partner": "circling",
+      "success": 0.39875,
+      "activation_percent": 17.080485799229024
+    },
+    {
+      "policy": "safety_only",
+      "partner": "switching",
+      "success": 0.63625,
+      "activation_percent": 7.007841879180586
+    },
+    {
+      "policy": "safety_only",
+      "partner": "erratic",
+      "success": 0.8975,
+      "activation_percent": 30.048701886857742
+    },
+    {
+      "policy": "tarot_no_teammate",
+      "partner": "circling",
+      "success": 0.39875,
+      "activation_percent": 17.256575607942914
+    },
+    {
+      "policy": "tarot_no_teammate",
+      "partner": "switching",
+      "success": 0.63125,
+      "activation_percent": 7.117403643615747
+    },
+    {
+      "policy": "tarot_no_teammate",
+      "partner": "erratic",
+      "success": 0.8975,
+      "activation_percent": 30.598656343794474
+    },
+    {
+      "policy": "tarot_default",
+      "partner": "circling",
+      "success": 0.39875,
+      "activation_percent": 17.23068804207167
+    },
+    {
+      "policy": "tarot_default",
+      "partner": "switching",
+      "success": 0.6175,
+      "activation_percent": 6.603217526031803
+    },
+    {
+      "policy": "tarot_default",
+      "partner": "erratic",
+      "success": 0.88875,
+      "activation_percent": 23.773713031641527
+    },
+    {
+      "policy": "tarot_tuned_cem",
+      "partner": "circling",
+      "success": 0.4,
+      "activation_percent": 16.64161111919355
+    },
+    {
+      "policy": "tarot_tuned_cem",
+      "partner": "switching",
+      "success": 0.635,
+      "activation_percent": 7.031836900228955
+    },
+    {
+      "policy": "tarot_tuned_cem",
+      "partner": "erratic",
+      "success": 0.89875,
+      "activation_percent": 25.50694080067222
+    },
+    {
+      "policy": "flat_cem_tuned",
+      "partner": "circling",
+      "success": 0.46625,
+      "activation_percent": 97.91366415064556
+    },
+    {
+      "policy": "flat_cem_tuned",
+      "partner": "switching",
+      "success": 0.68125,
+      "activation_percent": 96.64463875712556
+    },
+    {
+      "policy": "flat_cem_tuned",
+      "partner": "erratic",
+      "success": 0.91375,
+      "activation_percent": 95.62502780249697
+    }
+  ],
+  "paired_effects": [
+    {
+      "suite": "Robustness",
+      "first": "tarot_tuned_cem",
+      "second": "flat_cem_tuned",
+      "success_effect": [
+        -0.026111111111111113,
+        -0.029513888888888888,
+        -0.02298437500000001
+      ]
+    },
+    {
+      "suite": "Robustness",
+      "first": "tarot_tuned_cem",
+      "second": "tarot_no_teammate",
+      "success_effect": [
+        0.002638888888888889,
+        0.00020833333333333335,
+        0.005069444444444444
+      ]
+    },
+    {
+      "suite": "Reliability shift",
+      "first": "tarot_tuned_cem",
+      "second": "flat_cem_tuned",
+      "success_effect": [
+        -0.029513888888888888,
+        -0.03319618055555555,
+        -0.025833333333333333
+      ]
+    },
+    {
+      "suite": "Reliability shift",
+      "first": "tarot_tuned_cem",
+      "second": "tarot_no_teammate",
+      "success_effect": [
+        0.00986111111111111,
+        0.006942708333333333,
+        0.012987847222222213
+      ]
+    },
+    {
+      "suite": "Tail stress",
+      "first": "tarot_tuned_cem",
+      "second": "flat_cem_tuned",
+      "success_effect": [
+        -0.013220164609053498,
+        -0.015843621399176954,
+        -0.010699588477366255
+      ]
+    },
+    {
+      "suite": "Tail stress",
+      "first": "tarot_tuned_cem",
+      "second": "tarot_no_teammate",
+      "success_effect": [
+        0.0006172839506172839,
+        -0.00102880658436214,
+        0.0024176954732510287
+      ]
+    },
+    {
+      "suite": "Unseen partners",
+      "first": "tarot_tuned_cem",
+      "second": "flat_cem_tuned",
+      "success_effect": [
+        -0.0425,
+        -0.05291666666666667,
+        -0.0325
+      ]
+    },
+    {
+      "suite": "Unseen partners",
+      "first": "tarot_tuned_cem",
+      "second": "tarot_no_teammate",
+      "success_effect": [
+        0.0020833333333333333,
+        -0.004166666666666667,
+        0.00875
+      ]
+    }
+  ],
+  "dynamics3d": {
+    "selected_render_trajectories": {
+      "urban": {
+        "seed": 830001,
+        "steps": 102
+      },
+      "forest": {
+        "seed": 840003,
+        "steps": 71
+      },
+      "industrial": {
+        "seed": 850007,
+        "steps": 80
+      }
+    },
+    "table": [
+      {
+        "policy": "tarot_no_safety",
+        "episodes": 300,
+        "success": 0.0,
+        "success_ci": [
+          0.0,
+          0.012643429997735661
+        ],
+        "collision": 1.0,
+        "timeout": 0.0,
+        "successful_steps": null,
+        "activation_percent": 0.0
+      },
+      {
+        "policy": "tarot_default",
+        "episodes": 300,
+        "success": 0.7066666666666667,
+        "success_ci": [
+          0.6527928854718688,
+          0.7553144967957339
+        ],
+        "collision": 0.29333333333333333,
+        "timeout": 0.0,
+        "successful_steps": 91.91981132075472,
+        "activation_percent": 41.762087566265045
+      },
+      {
+        "policy": "tarot_tuned_cem",
+        "episodes": 300,
+        "success": 0.6733333333333333,
+        "success_ci": [
+          0.6183611701576165,
+          0.7239224407765018
+        ],
+        "collision": 0.32666666666666666,
+        "timeout": 0.0,
+        "successful_steps": 89.95544554455445,
+        "activation_percent": 41.12915447563219
+      },
+      {
+        "policy": "flat_cem_tuned",
+        "episodes": 300,
+        "success": 0.66,
+        "success_ci": [
+          0.6046734114246599,
+          0.7112806909760647
+        ],
+        "collision": 0.34,
+        "timeout": 0.0,
+        "successful_steps": 89.5,
+        "activation_percent": 99.31457724397194
+      }
+    ],
+    "tarot_cem_minus_flat_success": [
+      0.013333333333333334,
+      -0.03,
+      0.056666666666666664
+    ],
+    "tarot_cem_activation_reduction_percentage_points": [
+      58.185422768339734,
+      56.23880707252638,
+      60.1485935956167
+    ]
+  }
+}
