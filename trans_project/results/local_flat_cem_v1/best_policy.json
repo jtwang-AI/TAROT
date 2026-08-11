@@ -1,0 +1,11 @@
+{
+  "params": {
+    "target_gain": 1.9068097797202308,
+    "partner_center_gain": 0.1334189299794637,
+    "spread_gain": 0.2814117237442981,
+    "obstacle_gain": 0.15412778637657037,
+    "speed_scale": 1.0351498849861112,
+    "safety_budget": 1.0265609236530422
+  },
+  "score": 2.1293125
+}

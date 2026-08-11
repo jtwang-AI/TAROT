@@ -1,0 +1,52 @@
+[
+  {
+    "generation": 0,
+    "best_score": 1.973277777777778,
+    "mean_score": 0.8331215277777777
+  },
+  {
+    "generation": 1,
+    "best_score": 1.9981944444444446,
+    "mean_score": 0.8080885416666668
+  },
+  {
+    "generation": 2,
+    "best_score": 1.731527777777778,
+    "mean_score": 0.9347196180555556
+  },
+  {
+    "generation": 3,
+    "best_score": 1.7062777777777782,
+    "mean_score": 0.8617743055555557
+  },
+  {
+    "generation": 4,
+    "best_score": 1.9709444444444444,
+    "mean_score": 0.9857630208333333
+  },
+  {
+    "generation": 5,
+    "best_score": 1.7402222222222226,
+    "mean_score": 0.9641848958333334
+  },
+  {
+    "generation": 6,
+    "best_score": 1.9524444444444444,
+    "mean_score": 1.0771241319444447
+  },
+  {
+    "generation": 7,
+    "best_score": 2.0475,
+    "mean_score": 0.8664982638888888
+  },
+  {
+    "generation": 8,
+    "best_score": 1.5166666666666666,
+    "mean_score": 0.8662907986111112
+  },
+  {
+    "generation": 9,
+    "best_score": 1.7474444444444446,
+    "mean_score": 1.0540781250000002
+  }
+]

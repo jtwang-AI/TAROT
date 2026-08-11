@@ -1,0 +1,12 @@
+{
+  "params": {
+    "safety_budget": 1.2050607471565902,
+    "reliability_threshold": 0.29407296212153916,
+    "risk_clearance_scale": 3.3569204539802233,
+    "intercept_mix": 0.28817201968900946,
+    "intercept_offset": 1.4022064042719558,
+    "flank_mix": 0.45810280941007436,
+    "flank_offset": 2.099336983812863
+  },
+  "score": 2.0475
+}
